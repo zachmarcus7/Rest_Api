@@ -1,0 +1,31 @@
+body {
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+}
+
+.top_container {
+  background-color: #45a38c;
+  width: 60%;
+  color: white;
+  margin: 0 auto;
+  font-family: sans-serif;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.jwt_container{
+  background-color:#f5f7fa;
+  height:100px;
+  width: 600px;
+  overflow: scroll;
+  margin: auto;
+}
+
+.id_container{
+  background-color:#f5f7fa;
+  height:100px;
+  width: 600px;
+  overflow: scroll;
+  margin: auto;
+}
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>User Info</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+ </head>
+ <body>
+  
+
+    <h1 class="top_container">User Info</h1>
+    <h3>Student Auth0 Testing Site Results</h3>
+    <div class="bottom_container">
+        <h4>JWT:</h4>
+        <div class="jwt_container">{{jwt}}</div>
+        <h4>Unique ID:</h4>
+        <div class="id_container">{{unique_id}}</div>
+    </div>
+
+
+
+ </body>
+</html>

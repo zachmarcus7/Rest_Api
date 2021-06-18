@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+ </head>
+ <body>
+  
+
+    <h1 class="top_container">Welcome</h1>
+    <h3>Final Project Log-in Page</h3>
+    <div class="bottom_container">
+        <form action="/ui_login" method="GET">
+            <input type="submit" value="Sign in" />
+        </form>
+    </div>
+
+
+ </body>
+</html>
